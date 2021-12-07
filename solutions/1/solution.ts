@@ -3,7 +3,7 @@ import { split } from '@lib/split';
 
 
 
-function TellenMaar(input: number[]) {
+function CountNumberOfIncreases(input: number[]) {
 
     var totals: number = 0;
 
@@ -14,9 +14,7 @@ function TellenMaar(input: number[]) {
 
     }
 
-
-    console.log(`checking: ${totals}`); // 7 
-
+    return totals
 }
 
 
@@ -24,6 +22,6 @@ export const solution1 = async (test: boolean) => {
     const input = split(await read(1, { test }))
         .map(Number);
 
-    console.log(`2021-01 part one: ${TellenMaar(input)}`); // 7 test
+    console.log(`2021-01 part one: ${CountNumberOfIncreases(input)}`); // 7 test
     // console.log(`2021-01 part two: ${countIncreases(threeAveraged(input))}`); // 1567
 }
