@@ -1,7 +1,9 @@
-### Advent of Code - Vincent Weber
+### Advent of Code - Christiaan de Rijk
+#### Forked from https://github.com/vweber/aoc-2021
 #### Prerequisites
 - NodeJS >= v14 : https://nodejs.org/en/
 - Yarn: https://yarnpkg.com/getting-started/install
+- A strong stomach for ugly code
 
 #### Installation
 1. Initiate the project by `yarn install` in the root directory
